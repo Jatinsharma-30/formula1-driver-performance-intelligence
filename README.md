@@ -55,7 +55,8 @@ Formula1-Driver-Performance-Intelligence/
 │   ├── 01_Data_Cleaning.sql
 │   ├── 02_Exploratory_Analysis.sql
 │   ├── 03_Advanced_SQL.sql
-│   └── 04_Views.sql
+│   ├── 04_Views.sql
+│   └── 05_Business_Insights.sql
 │
 ├── Python/
 │   ├── 01_Load_Data_To_SQL.ipynb
@@ -87,7 +88,7 @@ Formula1-Driver-Performance-Intelligence/
 │
 ├── README.md
 ├── .gitignore
-└── requirements.txt
+└── LICENSE
 ```
 
 ---
