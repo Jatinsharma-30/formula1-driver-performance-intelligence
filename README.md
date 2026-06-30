@@ -40,21 +40,53 @@ The project demonstrates practical business analytics skills using SQL and Pytho
 ```
 Formula1-Driver-Performance-Intelligence/
 │
-├── Dataset/
+├── Data/
+│   ├── F1DriversDataset.csv
+│   └── README.md
+│
+├── Docs/
+│   ├── Data Dictionary
+│   ├── Methodology.md
+│   ├── SQL_Query_Explanations.md
+│   └── README.md
+│
 ├── SQL/
+│   ├── README.md
 │   ├── 01_Data_Cleaning.sql
 │   ├── 02_Exploratory_Analysis.sql
 │   ├── 03_Advanced_SQL.sql
 │   └── 04_Views.sql
 │
 ├── Python/
-│   ├── cleaning.ipynb
-│   ├── eda.ipynb
-│   ├── feature_engineering.ipynb
-│   └── champion_prediction.ipynb
+│   ├── 01_Load_Data_To_SQL.ipynb
+│   ├── 02_Data_Cleaning.ipynb
+│   ├── 03_Exploratory_Data_Analysis.ipynb
+│   ├── 04_Feature_Engineering.ipynb
+│   ├── 05_Champion_Predictions.ipynb
+│   ├── 06_Model_Evaluation.ipynb
+│   ├── 07_Insights_and_Recommendations.ipynb
+│   └── README.md
+│
+├── results/
+│   ├── engineered_dataset.csv
+│   ├── feature_importance.csv
+│   ├── model_evaluation.csv
+│   ├── model_metrics.csv
+│   └── README.md
 │
 ├── Images/
+│   ├── Champion Distribution.jpeg
+│   ├── Confusion Matrix.jpeg
+│   ├── Correlation matrix.jpeg
+│   ├── Feature Importance.jpeg
+│   ├── README.md
+│   ├── ROC Curve.jpeg
+│   ├── Top 10 Drivers by Race Wins.jpeg
+│   ├── Top 10 Nationalities by no. of Drivers.jpeg
+│   └── README.md
+│
 ├── README.md
+├── .gitignore
 └── requirements.txt
 ```
 
