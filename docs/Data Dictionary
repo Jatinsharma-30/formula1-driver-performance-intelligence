@@ -1,0 +1,28 @@
+# 📖 Data Dictionary
+
+This document describes the variables used in the Formula 1 Driver Performance Intelligence project.
+
+| Column | Data Type | Description |
+|---------|-----------|-------------|
+| Driver | Text | Name of the Formula 1 driver |
+| Nationality | Text | Driver's country of origin |
+| Seasons | Integer | Number of Formula 1 seasons participated |
+| Championships | Integer | Total World Championships won |
+| Race_Entries | Integer | Total race entries |
+| Race_Starts | Integer | Total race starts |
+| Pole_Positions | Integer | Total pole positions achieved |
+| Race_Wins | Integer | Total race victories |
+| Podiums | Integer | Total podium finishes |
+| Fastest_Laps | Integer | Total fastest laps recorded |
+| Points | Float | Career championship points |
+| Active | Boolean | Indicates whether the driver is currently active |
+| Championship_Years | Text | Years in which championships were won |
+| Decade | Integer | Career decade classification |
+| Pole_Rate | Float | Pole positions per race entry |
+| Start_Rate | Float | Race starts per race entry |
+| Win_Rate | Float | Race wins per race entry |
+| Podium_Rate | Float | Podium finishes per race entry |
+| FastLap_Rate | Float | Fastest laps per race entry |
+| Points_Per_Entry | Float | Average points earned per race entry |
+| Years_Active | Integer | Total years active in Formula 1 |
+| Champion | Boolean | Target variable indicating championship status |
