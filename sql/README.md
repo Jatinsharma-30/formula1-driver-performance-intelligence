@@ -38,6 +38,14 @@ This project demonstrates practical use of:
 
 ---
 
+## Database Objects
+
+The project includes reusable SQL Views created to simplify reporting and analytical queries.
+
+These views improve query readability and demonstrate database design best practices.
+
+---
+
 ## 📊 Business Questions Answered
 
 The SQL analysis explores questions such as:
