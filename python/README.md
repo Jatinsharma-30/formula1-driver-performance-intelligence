@@ -218,6 +218,34 @@ Provided a comprehensive summary of the project suitable for technical and busin
 
 ---
 
+## Workflow
+
+```
+Load Dataset
+      │
+      ▼
+Import into MySQL
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Machine Learning
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
+Insights & Recommendations
+```
+---
+
 # 🛠 Technologies Used
 
 ## Programming Language
